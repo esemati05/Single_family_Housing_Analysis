@@ -1,6 +1,5 @@
 import pandas as pd
-from parse_loans import load_origination, load_performance
-
+from ingestion.parse_loans import load_origination, load_performance
 # Sentinel values Freddie Mac uses to mean "not available" for specific fields
 SENTINELS = {
     "credit_score": ["9999"],
